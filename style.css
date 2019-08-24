@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 div#viewport {
@@ -21,6 +21,7 @@ div#viewport {
     position: relative;
     top: 16px;
     font-size: 13px;
+    text-decoration: none;
 }
 
 #tl {
@@ -33,11 +34,11 @@ div#viewport {
     color: black;
     padding-left: 15px;
     opacity: .85;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
 }
 
 #logo {
-    position: relative;
     padding: 190px;
 }
 
@@ -71,9 +72,45 @@ div {
     position: relative;
     text-align: right;
     align-items: center;
+
 }
 
 .gmail_a, .images_a, .apps_a .log_in_a {
     flex: 0 1 auto;
     display: flex;
+}
+
+.gmail, .images, .apps, .sign_in {
+    text-decoration: none;
+}
+
+.advertising, .business, .hsw {
+    display: inline;
+}
+#fbar {
+    background: gray;
+    border-top: 1px solid gray;
+    line-height: 10px;
+    min-width: 980px;
+}
+#footer {
+    display: block;
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: absolute;
+    width: 100%;
+    background-color: #e3e3e3;
+}
+.ctr-p {
+    margin: 0 auto;
+}
+
+.search {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 24px;
+    height: 44px;
+    margin: auto;
+    width: 450px;
 }
